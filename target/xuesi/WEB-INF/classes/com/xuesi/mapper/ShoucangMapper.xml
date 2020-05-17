@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuesi.mapper.ShoucangMapper">
+
+    <resultMap id="ShoucangMap" type="shoucang">
+        <id property="id" column="id"/>
+        <result property="userId" column="userId"/>
+        <result property="videoid" column="videoid"/>
+        <result property="coverPath" column="cover_path"/>
+        <result property="playNum" column="play_num"/>
+        <result property="title" column="title"/>
+        <result property="videoSeconds" column="video_seconds"/>
+
+    </resultMap>
+
+
+
+    <delete id="deleteShoucang" parameterType="int" >
+    delete from shoucang  where id=#{id}
+    </delete>
+
+    <select id="selectShoucang2" parameterType="java.util.Map" resultMap="ShoucangMap">
+         select * from shoucang where userId = #{userId} and videoid = #{videoid}
+    </select>
+
+    <select id="selectShoucang" parameterType="int" resultMap="ShoucangMap">
+         select * from shoucang where userId = #{userId}
+    </select>
+
+    <select id="checkFavorites" parameterType="java.util.Map" resultType="int">
+	SELECT COUNT(1) FROM shoucang WHERE userId=#{userId} and videoid=#{videoid}
+	</select>
+
+    <insert id="addShoucang" parameterType="Shoucang">
+        insert into shoucang (userId,videoid,title,cover_path,play_num,video_seconds)
+        values (#{userId},#{videoid},#{title},#{coverPath},#{playNum},#{videoSeconds})
+    </insert>
+</mapper>

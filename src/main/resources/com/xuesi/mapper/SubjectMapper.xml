@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuesi.mapper.SubjectMapper">
+
+    <resultMap id="SubjectMap" type="com.xuesi.pojo.Subject">
+        <id property="id" column="id"/>
+        <result property="subjectName" column="subject_name"/>
+        <collection property="courseList" ofType="com.xuesi.pojo.Course"
+                    select="com.xuesi.mapper.CourseMapper.getCourserBySubjectId" column="id">
+        </collection>
+    </resultMap>
+    <resultMap id="SubjectMap2" type="com.xuesi.pojo.Subject">
+        <id property="id" column="id"/>
+        <result property="subjectName" column="subject_name"/>
+    </resultMap>
+
+    <select id="subjectById" parameterType="int" resultMap="SubjectMap">
+        select * from subject where id = #{subjectId}
+    </select>
+
+    <select id="subjectAll" resultMap="SubjectMap">
+        select * from subject
+    </select>
+
+    <select id="findSubjectTypeList" resultMap="SubjectMap2">
+    select id,subject_name from subject
+    </select>
+    <select id="subjectBYId" parameterType="int" resultMap="SubjectMap2">
+        select * from subject where id = #{subjectId}
+    </select>
+</mapper>

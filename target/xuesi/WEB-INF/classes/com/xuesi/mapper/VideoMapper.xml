@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuesi.mapper.VideoMapper">
+    <resultMap id="BaseResultMap" type="com.xuesi.pojo.Video">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="speaker_id" property="speakerId" jdbcType="VARCHAR"/>
+        <result column="course_id" property="courseId" jdbcType="INTEGER"/>
+        <result column="video_path" property="videoPath" jdbcType="VARCHAR"/>
+        <result column="cover_path" property="coverPath" jdbcType="VARCHAR"/>
+        <result property="playNum" column="play_num" jdbcType="INTEGER"/>
+        <result property="speakerName" column="speaker_name" jdbcType="VARCHAR"/>
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="audio_id" property="audioId" jdbcType="VARCHAR"/>
+        <result column="video_desc" property="videoDesc" jdbcType="VARCHAR"/>
+        <result column="video_seconds" property="videoSeconds" jdbcType="REAL"/>
+        <result column="video_width" property="videoWidth" jdbcType="INTEGER"/>
+        <result column="video_height" property="videoHeight" jdbcType="INTEGER"/>
+        <result column="courseTitle" property="courseTitle" jdbcType="VARCHAR"/>
+        <result column="like_counts" property="likeCounts" jdbcType="INTEGER"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <select id="findVideoByCid" parameterType="int" resultMap="BaseResultMap">
+        select v.*,s.speaker_name from video v,speaker s where
+        v.speaker_id = s.id and course_id = #{courseId}
+    </select>
+    <select id="findVideoById" parameterType="int" resultMap="BaseResultMap">
+        select * from video where id = #{id}
+    </select>
+
+    <select id="findVideoBySid" parameterType="int" resultMap="BaseResultMap">
+        select * from video where speaker_id = #{speakerId}
+    </select>
+
+
+
+    <select id="videoListAll" parameterType="com.xuesi.pojo.VideoByVo" resultMap="BaseResultMap">
+        select v.*, s.speaker_name from video v,speaker s
+        <where>
+            v.speaker_id = s.id
+            <if test="title != null and  title != '' ">
+                and title like concat('%',#{title},'%')
+            </if>
+            <if test="speakerId != 0">
+                and v.speaker_id = #{speakerId}
+            </if>
+            <if test="courseId != 0">
+                and v.course_id = #{courseId}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectVideosById" resultMap="BaseResultMap">
+        select v.id, v.speaker_id,v.title, v.video_desc, v.video_path, v.video_seconds, v.cover_path, v.like_counts,v.play_num,
+        v.status, v.create_time
+        from video v ,admin a
+        <where>
+            v.speaker_id = a.id and a.id=#{adminid}
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 0">
+                status = 0
+            </if>
+            <if test="pretime != null and pretime != '' and endtime != null and endtime != '' ">
+                and DATE_FORMAT(create_time,'%Y-%m-%d') BETWEEN DATE_FORMAT(#{pretime},'%Y-%m-%d') AND
+                DATE_FORMAT(#{endtime},'%Y-%m-%d')
+            </if>
+        </where>
+        limit #{start},#{limit}
+    </select>
+    <select id="selectVideos" resultMap="BaseResultMap">
+        select id, speaker_id,title, video_desc, video_path, video_seconds, cover_path, like_counts, status,play_num, create_time
+        from video
+        <where>
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 0">
+                status = 0
+            </if>
+            <if test="pretime != null and pretime != '' and endtime != null and endtime != '' ">
+                and DATE_FORMAT(create_time,'%Y-%m-%d') BETWEEN DATE_FORMAT(#{pretime},'%Y-%m-%d') AND
+                DATE_FORMAT(#{endtime},'%Y-%m-%d')
+            </if>
+        </where>
+        limit #{start},#{limit}
+    </select>
+
+    <select id="getCount" resultType="INTEGER">
+        select count(id) from video
+        <where>
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 0">
+                status = 0
+            </if>
+        </where>
+    </select>
+    <select id="getCountById" resultType="INTEGER">
+        select count(id) from video v
+        <where>
+            v.speaker_id=#{adminid}
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 0">
+                status = 0
+            </if>
+        </where>
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="int">
+    delete from video
+    where id = #{id}
+  </delete>
+
+    <select id="selectByLike" parameterType="string" resultMap="BaseResultMap">
+        select id, speaker_id,title, video_desc, video_path, video_seconds, cover_path, like_counts, status, create_time
+        from video
+        <where>
+            <if test="vid != null and vid != ''">
+                id like concat('%',#{vid},'%')
+            </if>
+            <if test="videoDesc != null and videoDesc !=''">
+                or video_desc like concat('%',#{videoDesc},'%')
+            </if>
+        </where>
+
+    </select>
+
+    <insert id="insert" parameterType="com.xuesi.pojo.Video">
+    insert into video (id, speaker_id,course_id,title, audio_id,
+      video_desc, video_path, video_seconds,
+      video_width, video_height, cover_path,
+      like_counts, status, create_time
+      )
+    values (#{id,jdbcType=INTEGER}, #{speakerId,jdbcType=VARCHAR},#{courseId,jdbcType=VARCHAR},#{title,jdbcType=VARCHAR}, #{audioId,jdbcType=VARCHAR},
+      #{videoDesc,jdbcType=VARCHAR}, #{videoPath,jdbcType=VARCHAR}, #{videoSeconds,jdbcType=REAL},
+      #{videoWidth,jdbcType=INTEGER}, #{videoHeight,jdbcType=INTEGER}, #{coverPath,jdbcType=VARCHAR},
+      #{likeCounts,jdbcType=BIGINT}, #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select id, speaker_id, title,audio_id, video_desc, video_path, video_seconds, video_width,
+    video_height, cover_path, like_counts, status, create_time
+    from video
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+    <update id="edit" parameterType="video">
+        update video
+        <trim prefix="set" suffixOverrides=",">
+
+            <if test="title != null">
+                title = #{title,jdbcType=VARCHAR},
+            </if>
+            <if test="videoDesc != null">
+                video_desc = #{videoDesc,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                status = #{status,jdbcType=INTEGER},
+            </if>
+
+        </trim>
+
+        where id= #{vid}
+    </update>
+
+
+    <delete id="deleteByPrimarykey" parameterType="java.lang.String">
+    delete from video
+    where id = #{id}
+  </delete>
+
+
+    <select id="findVideoBYCid" parameterType="int" resultMap="BaseResultMap">
+        select v.*,s.speaker_name from video v,speaker s where
+        v.speaker_id = s.id and course_id = #{id}and v.status =1
+    </select>
+
+    <select id="selectById" parameterType="int" resultMap="BaseResultMap">
+        select * from video where id=#{videoid}
+    </select>
+
+    <select id="getVideoListByVideoid" parameterType="int" resultMap="BaseResultMap">
+        select * from video where id=#{videoid}
+    </select>
+
+    <update id="updateLikeCounts" parameterType="video">
+        update video set like_counts = #{likeCounts} where id = #{id1}
+    </update>
+
+    <update id="addLikeCounts" parameterType="video">
+        update video set like_counts = #{likeCounts} where id = #{id1}
+    </update>
+</mapper>

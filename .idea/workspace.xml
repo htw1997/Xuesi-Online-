@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="xuesi:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/xuesi/pojo/User.java" line="40" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/xuesi/service/impl/VideoServiceImpl.java" description="Admin user = (Admin)request.getSession().getAttrib..." line="199" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6716e32-06bf-4967-8163-17b8adc087c1" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VideoPro_Ding" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/3333.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/33334444.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="58" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig/db.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface3.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface4.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface5.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/同学.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/同学嗯.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getCourserBySubjectId</find>
+      <find>findVideoByCid</find>
+      <find>insertUser</find>
+      <find>baoming</find>
+      <find>elem</find>
+      <find>replycontainer</find>
+      <find>replyBtn</find>
+      <find>js2</find>
+      <find>classify</find>
+      <find>clearfix</find>
+      <find>showVideo</find>
+      <find>intro</find>
+      <find>videoPlayer</find>
+      <find>updatePalyNum</find>
+      <find>updateLikeCounts</find>
+      <find>video2</find>
+      <find>barDemo</find>
+      <find>update</find>
+      <find>edit</find>
+      <find>editVideo</find>
+      <find>getEdit</find>
+      <find>look</find>
+      <find>static</find>
+      <find>lr_for</find>
+      <find>lw_list</find>
+      <find>lr_list</find>
+      <find>toPinglunView</find>
+      <find>jquery</find>
+      <find>name</find>
+      <find>videodemo</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/case.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xuesi/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xuesi/mapper/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/pojo/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/course.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/pojo/Shoucang.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/pojo/Words.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xuesi/mapper/WordsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/PinglunService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/impl/PinglunServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/mapper/PinglunMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xuesi/mapper/PinglunMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/behind/behindUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/behind/editVideo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/pojo/Reply.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/base.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/profile.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/my_profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/change_avatar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/change_profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/password_safe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shoucang2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/ShoucangService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/impl/ShoucangServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/mapper/ShoucangMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xuesi/mapper/ShoucangMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/pojo/Video.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/controller/ShoucangController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/mapper/VideoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xuesi/mapper/VideoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/behind/video.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/service/impl/HomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js1/video.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/utils/ImageCut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/utils/VideoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/section.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/controller/PinglunController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/behind/pinglun.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shoucang.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/behind/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuesi/utils/UpUtils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/tools/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="G:\tools\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value=" -Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xuesi Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xuesi Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xuesi Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="392" />
+    <option name="y" value="124" />
+    <option name="width" value="1617" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dbconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xuesi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xuesi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MyBatisLogPluginindexNum" value="4286" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.196" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF\jsp\behind" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF\jsp\before" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\resources\com\xuesi\mapper" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuesi.pojo" />
+      <recent name="com.xuesi" />
+      <recent name="com.xuesi.controller" />
+      <recent name="com.xuesi.service.impl" />
+      <recent name="com.xuesi.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF\jsp\behind" />
+      <recent name="D:\毕业项目杂编\毕业设计项开始整合项目\xuesi\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\毕业项目杂编\xuesi\src\main\resources\com\xuesi\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.20">
+    <configuration name="InfoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuesi.utils.InfoUtils" />
+      <module name="xuesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuesi.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuesi.utils.MailUtil" />
+      <module name="xuesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuesi.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMail.testMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuesi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMail" />
+      <option name="METHOD_NAME" value="testMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.20" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="xuesi:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/xuesi" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_xuesi" />
+        <option name="HTTP_PORT" value="8080" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60172" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="60173" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="xuesi:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InfoUtils" />
+      <item itemvalue="Application.MailUtil" />
+      <item itemvalue="JUnit.TestMail.testMail" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.20" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MailUtil" />
+        <item itemvalue="Application.InfoUtils" />
+        <item itemvalue="JUnit.TestMail.testMail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6716e32-06bf-4967-8163-17b8adc087c1" name="Default Changelist" comment="" />
+      <created>1569294777499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569294777499</updated>
+      <workItem from="1569294780944" duration="9189000" />
+      <workItem from="1569311877074" duration="21284000" />
+      <workItem from="1569392171344" duration="93000" />
+      <workItem from="1569392310450" duration="1785000" />
+      <workItem from="1569396671989" duration="8742000" />
+      <workItem from="1569412571212" duration="32269000" />
+      <workItem from="1569546434691" duration="5350000" />
+      <workItem from="1569574317921" duration="2874000" />
+      <workItem from="1569582875827" duration="9625000" />
+      <workItem from="1569719492363" duration="1370000" />
+      <workItem from="1569826485025" duration="243000" />
+      <workItem from="1570334174976" duration="315000" />
+      <workItem from="1570459265421" duration="37000" />
+      <workItem from="1570535385525" duration="8840000" />
+      <workItem from="1570596082576" duration="930000" />
+      <workItem from="1570601387559" duration="203000" />
+      <workItem from="1570709249684" duration="1336000" />
+      <workItem from="1570717524554" duration="433000" />
+      <workItem from="1571044339006" duration="582000" />
+      <workItem from="1571045279398" duration="3853000" />
+      <workItem from="1571213229006" duration="684000" />
+      <workItem from="1571270910757" duration="698000" />
+      <workItem from="1571627290310" duration="860000" />
+      <workItem from="1571628211189" duration="2622000" />
+      <workItem from="1571714784020" duration="598000" />
+      <workItem from="1571966193419" duration="51000" />
+      <workItem from="1572010102679" duration="657000" />
+      <workItem from="1572082620605" duration="232000" />
+      <workItem from="1572083532073" duration="793000" />
+      <workItem from="1572221597558" duration="390000" />
+      <workItem from="1572261345226" duration="908000" />
+      <workItem from="1572311731445" duration="1375000" />
+      <workItem from="1572347725991" duration="598000" />
+      <workItem from="1572676065903" duration="638000" />
+      <workItem from="1572771134655" duration="30000" />
+      <workItem from="1573201223362" duration="3643000" />
+      <workItem from="1573211292052" duration="3697000" />
+      <workItem from="1573261993489" duration="14171000" />
+      <workItem from="1573433196871" duration="7858000" />
+      <workItem from="1573475817701" duration="660000" />
+      <workItem from="1573541614561" duration="738000" />
+      <workItem from="1573645299817" duration="3101000" />
+      <workItem from="1573653874250" duration="7000" />
+      <workItem from="1573703125196" duration="785000" />
+      <workItem from="1573711194727" duration="2048000" />
+      <workItem from="1573721574001" duration="1242000" />
+      <workItem from="1573738157758" duration="1888000" />
+      <workItem from="1573783251701" duration="2319000" />
+      <workItem from="1573798390829" duration="12430000" />
+      <workItem from="1574857267245" duration="5521000" />
+      <workItem from="1575016554140" duration="32000" />
+      <workItem from="1575279692655" duration="208000" />
+      <workItem from="1575280032396" duration="333000" />
+      <workItem from="1575297653484" duration="751000" />
+      <workItem from="1575708345113" duration="1202000" />
+      <workItem from="1575717126880" duration="2174000" />
+      <workItem from="1575719585583" duration="725000" />
+      <workItem from="1575721769011" duration="6000" />
+      <workItem from="1582365964441" duration="1438000" />
+      <workItem from="1582450394657" duration="599000" />
+      <workItem from="1583061433125" duration="635000" />
+      <workItem from="1583067494267" duration="2492000" />
+      <workItem from="1583142795525" duration="12189000" />
+      <workItem from="1583560205906" duration="337000" />
+      <workItem from="1585111258229" duration="889000" />
+      <workItem from="1585197280929" duration="1984000" />
+      <workItem from="1585215731258" duration="2137000" />
+      <workItem from="1585279683948" duration="8126000" />
+      <workItem from="1585370016097" duration="15462000" />
+      <workItem from="1585462116086" duration="5332000" />
+      <workItem from="1585541102309" duration="13454000" />
+      <workItem from="1585627817492" duration="20680000" />
+      <workItem from="1585712621595" duration="6730000" />
+      <workItem from="1585785446160" duration="2017000" />
+      <workItem from="1585798053814" duration="17995000" />
+      <workItem from="1585901364645" duration="20140000" />
+      <workItem from="1585922274585" duration="122000" />
+      <workItem from="1585922410675" duration="40946000" />
+      <workItem from="1585990183300" duration="36604000" />
+      <workItem from="1586055114836" duration="92581000" />
+      <workItem from="1586233019204" duration="48366000" />
+      <workItem from="1586314762872" duration="16491000" />
+      <workItem from="1586425444713" duration="1199000" />
+      <workItem from="1586613502562" duration="2225000" />
+      <workItem from="1587287326535" duration="3611000" />
+      <workItem from="1587345701332" duration="8440000" />
+      <workItem from="1587432698743" duration="3277000" />
+      <workItem from="1587470926914" duration="621000" />
+      <workItem from="1587519014047" duration="10273000" />
+      <workItem from="1587637881030" duration="2560000" />
+      <workItem from="1587652527469" duration="58000" />
+      <workItem from="1587652656688" duration="66000" />
+      <workItem from="1587802189396" duration="1016000" />
+      <workItem from="1587962217159" duration="291000" />
+      <workItem from="1587979273117" duration="21432000" />
+      <workItem from="1588006081346" duration="76000" />
+      <workItem from="1588006774866" duration="2524000" />
+      <workItem from="1588041056064" duration="36198000" />
+      <workItem from="1588143422804" duration="24303000" />
+      <workItem from="1588651347426" duration="632000" />
+      <workItem from="1588833235122" duration="158000" />
+      <workItem from="1588854927273" duration="3762000" />
+      <workItem from="1588899924981" duration="3841000" />
+      <workItem from="1588924663759" duration="665000" />
+      <workItem from="1588933487097" duration="2293000" />
+      <workItem from="1588985693967" duration="3272000" />
+      <workItem from="1589031931527" duration="358000" />
+      <workItem from="1589102596612" duration="2060000" />
+      <workItem from="1589107551640" duration="1879000" />
+      <workItem from="1589204752160" duration="908000" />
+      <workItem from="1589375079435" duration="2613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestMail_testMail - 2019.09.26 at 22h 18m 29s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.26 at 22h 20m 27s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.26 at 22h 24m 57s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.26 at 22h 26m 04s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.27 at 21h 19m 58s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.27 at 21h 20m 38s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.27 at 21h 21m 32s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMail_testMail - 2019.09.30 at 14h 56m 08s.xml">
+      <configuration name="TestMail.testMail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="694383000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.19296375" />
+      <window_info id="Structure" order="1" sideWeight="0.5052192" side_tool="true" weight="0.30257186" />
+      <window_info id="JRebel" order="2" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="3" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.5048754" side_tool="true" weight="0.20682302" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79584223" weight="0.66088843" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5362947" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.7463175" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48940998" weight="0.6782232" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36403033" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.20415778" side_tool="true" weight="0.8689057" />
+      <window_info anchor="bottom" id="Problems" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.871407" weight="0.5633803" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.12859304" side_tool="true" weight="0.58919805" />
+      <window_info anchor="bottom" id="MyBatis Log" order="19" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1684435" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32942432" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.16868381" />
+      <window_info anchor="right" id="Codota" order="7" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.16950959" />
+      <window_info id="Structure" order="1" sideWeight="0.5052192" side_tool="true" weight="0.30257186" />
+      <window_info id="JRebel" order="2" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="3" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.5048754" side_tool="true" weight="0.20682302" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79584223" weight="0.6695558" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42795232" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.7463175" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48940998" weight="0.6782232" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36403033" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.20415778" side_tool="true" weight="0.8689057" />
+      <window_info anchor="bottom" id="Problems" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.871407" weight="0.5633803" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.12859304" side_tool="true" weight="0.58919805" />
+      <window_info anchor="bottom" id="MyBatis Log" order="19" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1684435" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32942432" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.16868381" />
+      <window_info anchor="right" id="Codota" order="7" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/国画2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/国画.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/微信公众号.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/抽象2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/怕.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/水彩.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/水彩3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/油画.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/IMG_20191218_225453.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/油画2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/erweima.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/bb4af7c859ad691a76dc02ced542df30.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/9a0f4692450758fde2a3341845051a38 - 副本 (2).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/33334444.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/android.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img/arrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/161164320 贺廷伟.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/98428953313CD9E32F99A287343EB2CA.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/-21c7a4972295279b.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/AB07BFB3282A2B1F074D9DC9BA9AEAA0.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/c0c358ebff985deae6df1f441349ef48.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/douyin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/f4f6543ba7381a9020ab5628020cfb53.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/hah.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/ico.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/IMG_20191218_225450.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/head.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/Java-项目答辩模板.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/login_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/TIM图片20200316130711.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/sss.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/关系人.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/桌面1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/u=3343332082,2576089171&amp;fm=26&amp;gp=0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/3333.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/userface5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/同学.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/同学嗯.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img1/33334444.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="58" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>xuesi:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.196" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (xuesi)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.196" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xuesi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.196" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.pagehelper:pagehelper:5.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.196" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

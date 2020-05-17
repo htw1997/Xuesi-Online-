@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuesi.mapper.HomeMapper">
+    <resultMap id="BaseResultMap" type="com.xuesi.pojo.Admin">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="face_image" property="faceImage" jdbcType="VARCHAR"/>
+        <result column="nickname" property="nickname" jdbcType="VARCHAR"/>
+        <result column="rId" property="rId" jdbcType="VARCHAR"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from Admin
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+    <insert id="insert" parameterType="com.xuesi.pojo.Admin">
+    insert into Admin (username, password,rId)
+    values ( #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},#{rId,jdbcType=VARCHAR})
+  </insert>
+    <update id="updateByPrimaryKey" parameterType="com.xuesi.pojo.Admin">
+    update Admin
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      face_image = #{faceImage,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select id, username, password, face_image, nickname
+    from Admin
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select id, username, password, face_image, nickname
+    from Admin
+  </select>
+
+
+    <select id="selectByUserName" parameterType="string" resultMap="BaseResultMap">
+      select  admin.id, admin.username, admin.password, admin.face_image,admin.nickname,role.type as rId
+    from Admin,role where username = #{username} and admin.rId = role.id
+  </select>
+    <select id="selectTureByOldPassword" parameterType="com.xuesi.pojo.Admin" resultType="int">
+      select count(1) from admin where username =#{username} and password=#{oldPassword}
+  </select>
+
+    <update id="editPassword" parameterType="string">
+    update admin set password = #{password} where username= #{username}
+   </update>
+
+    <select id="selectAdminByUserName" parameterType="com.xuesi.pojo.Admin" resultMap="BaseResultMap">
+      select  id from Admin where username = #{username}
+  </select>
+
+
+    <update id="editAdmin" parameterType="string">
+        update admin
+        <trim prefix="set" suffixOverrides=",">
+
+            <if test="nickname != null">
+                nickname = #{nickname,jdbcType=VARCHAR},
+            </if>
+
+            <if test="faceImage != null">
+                face_image = #{faceImage,jdbcType=VARCHAR},
+            </if>
+        </trim>
+
+        where id= #{vid}
+    </update>
+
+    <select id="selectByVid" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select id, username, password, face_image, nickname
+    from Admin
+    where id = #{vid,jdbcType=VARCHAR}
+  </select>
+
+    <select id="getCount" resultType="INTEGER">
+        select count(id) from admin
+    </select>
+
+    <select id="selectUser" resultMap="BaseResultMap">
+        select * from admin
+        <where>
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 2">
+                status = 2
+            </if>
+            <if test="pretime != null and pretime != '' and endtime != null and endtime != '' ">
+                and DATE_FORMAT(create_time,'%Y-%m-%d') BETWEEN DATE_FORMAT(#{pretime},'%Y-%m-%d') AND
+                DATE_FORMAT(#{endtime},'%Y-%m-%d')
+            </if>
+        </where>
+        limit #{start},#{limit}
+    </select>
+
+    <update id="editRid" parameterType="string">
+    update admin set rId = #{rId} where id= #{vid}
+   </update>
+
+
+
+</mapper>

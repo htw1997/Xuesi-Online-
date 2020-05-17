@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuesi.mapper.CourseMapper">
+    <resultMap id="courseMap" type="com.xuesi.pojo.Course">
+        <id property="id" column="id"/>
+        <result property="courseTitle" column="course_title"/>
+        <result property="courseDesc" column="course_desc"/>
+        <result property="subjectId" column="subject_id"/>
+        <result property="subjectName" column="subject_name"/>
+        <collection property="videoList" ofType="com.xuesi.pojo.Video"
+                    select="com.xuesi.mapper.VideoMapper.findVideoByCid" column="id" >
+        </collection>
+    </resultMap>
+    <resultMap id="courseMap2" type="com.xuesi.pojo.Course">
+        <id property="id" column="id"/>
+        <result property="courseTitle" column="course_title"/>
+        <result property="courseDesc" column="course_desc"/>
+        <result property="subjectId" column="subject_id"/>
+        <result property="subjectName" column="subject_name"/>
+
+    </resultMap>
+    <select id="getCourserBySubjectId"  resultMap="courseMap">
+        select * from course where subject_id = #{subjectId}
+    </select>
+
+    <select id="courseAll" resultMap="courseMap">
+        select c.*,s.subject_name from course c,subject s where c.subject_id = s.id
+    </select>
+
+    <select id="fingCourseById" parameterType="int" resultMap="courseMap">
+              select c.*,s.subject_name from course c,subject s where c.subject_id = s.id and c.id = #{id}
+    </select>
+
+
+    <select id="Allcourse" resultMap="courseMap">
+        select c.*,s.subject_name from course c,subject s where c.subject_id = s.id
+    </select>
+
+    <select id="selectCourse" resultMap="courseMap">
+        select * from course limit #{start},#{limit}
+    </select>
+
+    <select id="getCount" resultType="integer">
+        select count(*) from course
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from course
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+    <select id="selectByLike" parameterType="string" resultMap="courseMap">
+        select c.*, s.subject_name
+        from course c,subject s
+        <where>
+            <if test="vid != null and vid != ''">
+                c.id like concat('%',#{vid},'%')
+            </if>
+            <if test="courseDesc != null and courseDesc !=''">
+                or c.course_desc like concat('%',#{courseDesc},'%')
+            </if>
+            and c.subject_id=s.id
+        </where>
+
+    </select>
+
+
+    <insert id="insert" parameterType="com.xuesi.pojo.Course">
+    insert into course ( id,course_title, course_desc, subject_id )
+    values
+	(#{id,jdbcType=INTEGER}, #{courseTitle,jdbcType=VARCHAR},#{courseDesc,jdbcType=VARCHAR},#{subjectId,jdbcType=VARCHAR})
+
+  </insert>
+
+    <select id="selectByPrimaryKey" resultMap="courseMap" parameterType="java.lang.String">
+    select c.*, s.subject_name
+    from course c ,subject s
+    where c.subject_id = s.id and c.id = #{id,jdbcType=VARCHAR}
+  </select>
+
+    <update id="edit" parameterType="string">
+    update course set course_desc = #{courseDesc} where id= #{vid}
+  </update>
+
+    <select id="selectSubjectNameById" parameterType="int" resultType="string">
+    select subject_name from subject where id =#{subjectId}
+   </select>
+
+
+
+    <select id="findCourseTypeList" resultMap="courseMap2"  >
+    select id,course_title from course
+</select>
+
+    <select id="getCourserBYSubjectId" parameterType="int" resultMap="courseMap2">
+        select * from course where id = #{id}
+    </select>
+</mapper>

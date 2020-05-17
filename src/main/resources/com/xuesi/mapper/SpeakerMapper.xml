@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuesi.mapper.SpeakerMapper">
+    <resultMap id="BaseResultMap" type="com.xuesi.pojo.Speaker">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result column="speaker_name" property="speakerName" jdbcType="VARCHAR"/>
+        <result column="speaker_desc" property="speakerDesc" jdbcType="VARCHAR"/>
+        <result column="speaker_job" property="speakerJob" jdbcType="VARCHAR"/>
+        <result column="head_img_url" property="headImgUrl" jdbcType="VARCHAR"/>
+        <collection property="videos" ofType="com.xuesi.pojo.Video"
+                    select="com.xuesi.mapper.VideoMapper.findVideoBySid" column="id">
+        </collection>
+
+    </resultMap>
+
+    <select id="findSpeakerById" parameterType="string" resultMap="BaseResultMap">
+        select * from speaker where id = #{id}
+    </select>
+
+    <select id="selectSpeaker" resultMap="BaseResultMap">
+        select * from speaker limit #{start},#{limit}
+
+    </select>
+
+    <select id="getCount" resultType="integer">
+    select count(*) from speaker
+  </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from speaker
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+    <insert id="insert" parameterType="com.xuesi.pojo.Speaker">
+    insert into speaker ( id,speaker_name, speaker_desc, speaker_job, head_img_url )
+    values
+	(#{id,jdbcType=INTEGER}, #{speakerName,jdbcType=VARCHAR},#{speakerDesc,jdbcType=VARCHAR},#{speakerJob,jdbcType=VARCHAR},
+    #{headImgUrl,jdbcType=VARCHAR})
+  </insert>
+
+    <update id="edit" parameterType="string">
+        update speaker
+        <trim prefix="set" suffixOverrides=",">
+            <if test="speakerName != null">
+                speaker_name = #{speakerName,jdbcType=VARCHAR},
+            </if>
+            <if test="speakerDesc != null">
+                speaker_desc = #{speakerDesc,jdbcType=VARCHAR},
+            </if>
+            <if test="speakerJob != null">
+                speaker_job = #{speakerJob,jdbcType=VARCHAR},
+            </if>
+            <if test="headImgUrl != null">
+                head_img_url = #{headImgUrl,jdbcType=VARCHAR}
+            </if>
+        </trim>
+        where id= #{vid}
+    </update>
+
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select id, speaker_name, speaker_desc,speaker_job, head_img_url
+    from speaker
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+
+    <select id="selectByLike" parameterType="string" resultMap="BaseResultMap">
+        select id,speaker_name,speaker_desc,speaker_job, head_img_url
+        from speaker
+        <where>
+            <if test="vid != null and vid != ''">
+                id like concat('%',#{vid},'%')
+            </if>
+            <if test="speakerDesc != null and speakerDesc !=''">
+                or speaker_desc like concat('%',#{speakerDesc},'%')
+            </if>
+        </where>
+
+    </select>
+    <select id="selectSpeakerById" resultMap="BaseResultMap">
+        select s.*
+        from speaker s ,admin a
+        <where>
+            s.id = a.id and a.id=#{adminid}
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 0">
+                status = 0
+            </if>
+            <if test="pretime != null and pretime != '' and endtime != null and endtime != '' ">
+                and DATE_FORMAT(create_time,'%Y-%m-%d') BETWEEN DATE_FORMAT(#{pretime},'%Y-%m-%d') AND
+                DATE_FORMAT(#{endtime},'%Y-%m-%d')
+            </if>
+        </where>
+        limit #{start},#{limit}
+    </select>
+    <select id="getCountById" resultType="INTEGER">
+        select count(id) from speaker s
+        <where>
+            s.id=#{adminid}
+            <if test="stu == 1">
+                status = 1
+            </if>
+            <if test="stu == 0">
+                status = 0
+            </if>
+        </where>
+    </select>
+    <insert id="addSpeakerByRegister" parameterType="com.xuesi.pojo.Speaker">
+    insert into speaker ( id ,speaker_job )
+    values
+	(#{id}, #{speakerJob,jdbcType=VARCHAR})
+  </insert>
+
+    <select id="selectNickNameById" parameterType="string" resultType="string">
+    select speaker_name from speaker where id =#{speakerId}
+    </select>
+</mapper>
